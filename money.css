@@ -1,0 +1,172 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html {
+    
+    background-image:linear-gradient(black,orangered,deepskyblue,black);
+}
+:root {
+    --radius: 15px;
+    --bgcolor: #474748;
+    --color: white;
+}
+body{
+    min-height:100vh;
+    font-family:sans-serif;
+    display:flex;
+    flex-flow:column nowrap;
+}
+main{
+    display:flex;
+    flex-grow:1;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+
+
+}
+#val1 {
+    font-size: 30px;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    width:20%;
+    border-radius:var(--radius);
+}
+
+#val2 {
+    font-size: 30px;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    width: 20%;
+    border-radius: var(--radius);
+}
+
+button {
+    font-size: 30px;
+    width: 10%;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    border-radius: var(--radius);
+}
+
+#rez {
+    font-size: 30px;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    width: 18%;
+    border-radius: var(--radius);
+}
+
+#hello {
+    text-align:center;
+    font-size: 35px;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    width: 18%;
+    border-radius: var(--radius);
+}
+#price {
+    text-align: center;
+    font-size: 35px;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    width: 18%;
+    border-radius: var(--radius);
+}
+#year {
+    font-size: 35px;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    width: 18%;
+    border-radius: var(--radius);
+}
+
+.item{
+    display:flex;
+    margin-bottom:2%;
+    justify-content:center;
+    align-items:center
+}
+@media screen and (max-width:1100px) {
+    #year {
+        width: 25%;
+    }
+
+    #rez {
+        width: 25%;
+    }
+
+    #hello {
+        width: 30%;
+    }
+
+    #price {
+        width: 25%;
+    }
+
+    #val1 {
+        width: 30%;
+    }
+
+    #val2 {
+        width: 30%;
+    }
+
+    button {
+        width: 15%;
+    }
+}
+@media screen and (max-width:768px) {
+    #year {
+        width: 35%;
+    }
+
+    #rez {
+        width: 35%;
+    }
+
+    #hello {
+        width: 40%;
+    }
+
+    #price {
+        width: 35%;
+    }
+
+    #val1 {
+        width: 40%;
+    }
+
+    #val2 {
+        width: 40%;
+    }
+
+    button {
+        width: 20%;
+    }
+}
+@media screen and (max-width:500px) {
+    #year{
+        width:55%;
+    }
+    #rez {
+        width: 55%;
+    }
+    #hello {
+        width: 70%;
+    }
+    #price {
+        width: 55%;
+    }
+    #val1{
+        width:60%;
+    }
+    #val2{
+        width:60%;
+    }
+    button{
+        width:30%;
+    }
+}
