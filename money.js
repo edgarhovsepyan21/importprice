@@ -39,7 +39,9 @@ jQuery("document").ready(function () {
 		else {
 			usgin=usgin*1.38
 		}
-
+		
+		usgin = Math.round()
+		
 		jQuery('#rez').html(usgin);
 	});
 });
